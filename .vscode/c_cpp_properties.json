@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32-Win",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceRoot}",
+                    "${IDF_PATH}/components/",
+                    "E:\\Documents\\My Project\\180310_keyboard\\msys32\\home\\t\\esp\\esp-idf\\components\\",
+                    "${XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceRoot}",
+                "${IDF_PATH}/components/",
+                "E:\\Documents\\My Project\\180310_keyboard\\msys32\\home\\t\\esp\\esp-idf\\components\\",
+                "${XTENSA_ESP32_ELF_PATH}/xtensa-esp32-elf/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,78 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build app",
+            "group": "build",
+            "command": "make",
+            "type": "shell",
+            "args": [
+                "app"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": "absolute",
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            },
+        },
+            
+        {
+            "label": "clean app",
+            "command": "make",
+            "type": "shell",
+            "args": [
+                "app-clean"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "flash app",
+            "command": "make",
+            "type": "shell",
+            "args": [
+                "-j20", "app-flash"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        }, 
+        {
+            "label": "monitor",
+            "type": "process",
+            "windows": {
+                "command": "E:/Documents/My Project/180310_keyboard/msys32/mingw32.exe",
+                "args": ["make", "monitor"],
+            },
+            "presentation": {
+                "reveal": "never",
+            },
+            "problemMatcher": []
+
+        },
+        {
+            "label": "menuconfig",
+            "type": "process",
+            "windows": {
+                "command": "E:/Documents/My Project/180310_keyboard/msys32/mingw32.exe",
+                "args": ["make", "menuconfig"],
+            },
+            "presentation": {
+                "reveal": "never",
+            },
+            "problemMatcher": []
+            
+        }
+    ]
+}

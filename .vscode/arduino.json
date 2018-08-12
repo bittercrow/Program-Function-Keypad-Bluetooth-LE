@@ -1,0 +1,5 @@
+{
+    "board": "espressif:esp32:esp32doit-devkit-v1",
+    "configuration": "FlashFreq=80,UploadSpeed=115200,DebugLevel=none",
+    "port": "COM4"
+}

@@ -1,0 +1,27 @@
+{
+    "terminal.integrated.shell.windows": "E:/Documents/My Project/180310_keyboard/msys32/usr/bin/bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "--login",
+    ],
+    "terminal.integrated.env.windows": {
+        
+        "CHERE_INVOKING": "1",
+        "MSYSTEM": "MINGW32",
+    },
+    "files.associations": {
+        "gpio.h": "c",
+        "freertos.h": "c",
+        "esp_intr_alloc.h": "c",
+        "inttypes.h": "c",
+        "hids_device.h": "c",
+        "array": "c",
+        "deque": "c",
+        "map": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "xstring": "c",
+        "esp_hidd_prf_api.h": "c",
+        "key_code_list.h": "c"
+    },
+    
+}
