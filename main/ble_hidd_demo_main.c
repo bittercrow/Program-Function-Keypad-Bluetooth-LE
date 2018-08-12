@@ -73,7 +73,7 @@ static int scanned_output;
 static int scanned_input;
 static bool scan_enable = true;
 static char *key_array1[KEY_ROW][KEY_COL]={
-    {NULL,     "KB001 ", "KB002 ", "KB003 ", "KB004 "}, // Empty pace is Enter for Rhino.
+    {NULL,     "KB001 ", "KB002 ", "KB003 ", "KB004 "}, // The last empty pace is Enter for Rhino.
     {"KB010 ", "KB011 ", "KB012 ", "KB013 ", "KB014 "},
     {"KB020 ", "KB021 ", "KB022 ", "KB023 ", "KB024 "},
     {"KB030 ", "KB031 ", "KB032 ", "KB033 ", "KB034 "},
