@@ -6,5 +6,5 @@ This project is to build a programmed function keypad in order to easily operate
 -Enclosures: 3D-Printed
 -19 keys x 2(swap 2 key mapping tables) = 38 commands can be configured
 
--https://vimeo.com/284675629 
--https://vimeo.com/283292600 
+[Video1](https://vimeo.com/284675629) 
+[Video2](https://vimeo.com/283292600)
