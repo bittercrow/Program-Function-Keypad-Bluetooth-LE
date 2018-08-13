@@ -7,5 +7,5 @@ Enclosures: 3D-Printed
 19 keys x 2(swap 2 key mapping tables) = 38 commands can be configured  
 
 [Video1](https://vimeo.com/284675629)  
-[Video2](https://vimeo.com/283292600)
+[Video2](https://vimeo.com/283292600)  
 [Details](https://fabble.cc/bittercrow/bluetoothxlexprogramxfunctionxkeypad)
