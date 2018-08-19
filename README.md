@@ -1,5 +1,5 @@
 # Program Function Keypad, ESP32 BLE 
-This project is to build a programmed function keypad in order to easily operate Rhino3D in CAD design. This can be tailored for your purposes by rewriting the C program.  
+This project is to build a programmed function keypad in order to operate Rhino3D in CAD design. This can be tailored for your purposes by rewriting the C program.  
 Specifications:  
 Microcontroller: ESP32 DevKit  
 Wireless Communication: Bluetooth LE, HID  
